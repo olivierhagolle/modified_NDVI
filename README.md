@@ -1,4 +1,4 @@
-# modified_NDVI
+# Modified NDVI
 
-NDVI is highly sensitive to zero or negative reflectance values which may appear after atmospheric corrction. 
+The NDVI is highly sensitive to zero or negative reflectance values which may appear after atmospheric correction even with a high quality atmospheric correction processor. 
 Adding a small constant to the red solves the issue. This Jupyter Notebook shows what happens and how it is solved. 
